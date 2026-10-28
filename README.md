@@ -1,4 +1,3 @@
-
 # Einstein Field Equations from the Einstein-Hilbert Action (xAct)
 
 Mathematica / xAct code that derives the Einstein field equations by varying the action
