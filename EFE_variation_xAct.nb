@@ -1,1 +1,73 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created with the Wolfram Language : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  EFE_variation_xAct
+ </title>
+ <link href="HTMLFiles/EFE_variation_xAct.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ Einstein Field Equations from the Einstein-Hilbert Action (xAct)
+</p>
+
+
+
+<p class="Text">
+ S = &int; d&#8308;x &radic;(-g) [ R/(2&kappa;) + L_matter ],&nbsp;&nbsp;&kappa; = 8&pi;G (c = 1), signature (-,+,+,+), no cosmological constant. Requires the xAct package (xTensor). Run cells top to bottom with Shift+Enter in the same kernel session.
+</p>
+
+
+
+<p class="Text">
+ Author: Ankit C Khunt
+</p>
+
+
+
+<p class="Section">
+ 0. Load package
+</p>
+
+
+
+<p class="Text">
+ Optional: run this first for a fresh kernel (then evaluate the next cell).
+</p>
+
+
+
+<p class="CellLabel">
+ In[1]:=
+</p>
+
+
+
+<p class="Input">
+ <span class="InputFormInline">Quit[]</span>
+</p>
+
+
+
+<p class="CellLabel">
+ In[1]:=
+</p>
+
+
+
+<p class="Input">
+ <span class="InputFormInline">&lt;&lt; xAct`xTensor`<br />$PrePrint = ScreenDollarIndices;<br />$CVVerbose = False;</span>
+</p>
+
+
+
+<p class="Print">
+ 
